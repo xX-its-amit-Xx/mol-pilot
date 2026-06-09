@@ -1,0 +1,12 @@
+# MolPilot demo ligands — representative drug-like molecules
+# Format: SMILES <name>
+Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1 imatinib
+CC(=O)Oc1ccccc1C(=O)O aspirin
+CN1C=NC2=C1C(=O)N(C(=O)N2C)C caffeine
+CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C testosterone
+CC(C)Cc1ccc(cc1)C(C)C(=O)O ibuprofen
+c1ccc2ncccc2c1 quinoline
+Nc1ccc(N)cc1 p-phenylenediamine
+c1ccc(cc1)C(=O)O benzoic_acid
+OC(=O)c1cncnc1 nicotinic_acid
+CCOc1ccc(NC(=O)Nc2ccc(Cl)cc2)cc1 linuron_analog

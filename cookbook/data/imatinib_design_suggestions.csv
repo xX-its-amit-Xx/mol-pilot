@@ -1,0 +1,7 @@
+rank,smiles,transform,predicted_property,delta_property,tanimoto_to_query,sa_score,mol_weight,logp,passes_lipinski
+1,CCc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,Me→Et,-2.593,0.198,0.845,2.42,507.6,4.84,True
+2,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1N(C)c1nccc(-c2cccnc2)n1,NH→NMe,-2.752,0.039,0.724,2.55,507.6,4.61,True
+3,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nc(-c2cccnc2)cc[n+]1[O-],Py→PyNOx,-2.839,-0.048,0.75,2.74,509.6,3.83,True
+4,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2ccc[n+]([O-])c2)n1,Py→PyNOx,-2.938,-0.147,0.776,2.61,509.6,3.83,True
+5,[H]c1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,Me→H_Ar,-3.214,-0.423,0.767,2.74,479.6,4.28,True
+6,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)[n+]1[O-],Py→PyNOx,-3.832,-1.041,0.718,2.83,509.6,3.83,True

@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: molpilot
+Version: 0.1.0
+Summary: A medicinal-chemist-facing molecular design copilot
+Author: MolPilot Contributors
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/molpilot/molpilot
+Project-URL: Issues, https://github.com/molpilot/molpilot/issues
+Keywords: cheminformatics,drug-discovery,ADMET,molecular-design,interpretability,matched-molecular-pairs
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rdkit>=2023.3
+Requires-Dist: lightgbm>=4.0
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: shap>=0.43
+Requires-Dist: streamlit>=1.28
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: plotly>=5.18
+Requires-Dist: joblib>=1.3
+Requires-Dist: Pillow>=10.0
+Provides-Extra: gnn
+Requires-Dist: torch>=2.0; extra == "gnn"
+Requires-Dist: torch-geometric>=2.4; extra == "gnn"
+Provides-Extra: tdc
+Requires-Dist: PyTDC>=1.1; extra == "tdc"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Requires-Dist: black>=23.0; extra == "dev"
+Requires-Dist: ruff>=0.1; extra == "dev"
+Dynamic: license-file
